@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  height:100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+div#info {
+	position: absolute;
+	left: 12%;
+	bottom: 12%;
+	height: auto;
+}
+
+div#info h1 {
+	font-size: 3em;
+	font-weight: 500;
+}
+
+div#info h2 {
+	margin-top: 8px;
+	font-weight: 300;
+	color: #788086;
+}
+
+ul.contact {
+	margin-top: 40px;
+}
+
+ul.contact li {
+	list-style-type: none;
+	padding: 8px 0;
+}
+
+a {
+	text-transform: none;
+	font-style: none;
+	text-decoration: none;
+	font-weight: 400;
+	color: #788086;
+	position: relative;
+}
+
+a:hover {
+	color: #000;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+@media (max-width: 960px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
